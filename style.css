@@ -1,9 +1,35 @@
-html {
-    height: 100%;
-    width: 100%;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #3494e6, #ec6ead);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #clock {
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
   }
   
   #time {
-    width: 20em;
-    margin: 25rem 35rem;
+    font-size: 1.5em;
+  }
+  
+  #date {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  #clock span {
+    display: inline-block;
+    margin: 0 10px;
   }
